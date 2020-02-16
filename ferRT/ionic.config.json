@@ -1,0 +1,7 @@
+{
+  "name": "ferRT",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
