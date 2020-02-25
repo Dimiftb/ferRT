@@ -1,0 +1,9 @@
+{
+  "appId": "com.example.app",
+  "appName": "App",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {},
+  "linuxAndroidStudioPath": "/home/dimiftb/Downloads/android-studio/bin/studio.sh"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ferRT",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
