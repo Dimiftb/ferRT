@@ -22,7 +22,7 @@ while 1:
 
         detected_face = img[int(y):int(y + h), int(x):int(x + w)]  # crop detected face
         #detected_face = cv2.cvtColor(detected_face, cv2.COLOR_BGR2GRAY)  # transform to gray scale
-        detected_face = cv2.resize(detected_face, (48, 48))  # resize to 48x48
+        detected_face = cv2.resize(detected_face, (224, 224))  # resize to 48x48
         pred_class = learn.predict(Image(pil2tensor(detected_face, np.float32).div_(255)))[0]
 
 
